@@ -1,19 +1,6 @@
 import React from "react";
 import Image from "next/image";
-function Info({ product }) {
-  const images = [];
 
-  product.images.edges.map((image, i) => {
-    images.push(
-      <Image
-        src={image.node.originalSrc}
-        alt={image.node.altText}
-        layout="fill"
-        objectFit="cover"
-      />
-    );
-  });
-  console.log(images);
   return (
     <div>
       <div className="text-white h-1/2 w-full flex flex-col justify-around md:flex-row md:items-start md:space-y-0 md:space-x-4 lg:space-x-8 max-w-6xl  mx-auto p-7 border-b-2 border-t-2 mt-16">
