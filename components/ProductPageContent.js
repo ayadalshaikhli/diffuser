@@ -52,7 +52,7 @@ export default function ProductPageContent({ product }) {
         {product.description}
       </p>
       <ProductReviews />
-      <Info product={product} />
+      <Info />
       <RecommendedList
         current={product.id}
         products={product.collections.edges[0].node.products.edges}
