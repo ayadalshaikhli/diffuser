@@ -30,7 +30,7 @@ function Info({ product }) {
           <h1 className="text-center font-extrabold text-xl mb-3">
             How do I use it?
           </h1>
-          <p className="text-lg ">
+          <p className="text-lg dd">
             Simply fill the E-Flame with water, add your favorite essential
             oils, plug it in and turn on! It's as easy as that.
           </p>
