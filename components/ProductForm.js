@@ -97,8 +97,7 @@ export default function ProductForm({ product }) {
       }
     }
   }, [productInventory, selectedVariant]);
-  console.log(product.variants);
-  console.log(product.options);
+
   return (
     <div className="rounded-2xl p-4 shadow-lg flex flex-col w-full md:w-1/3 text-white ">
       <h2 className="text-2xl font-bold">{product.title}</h2>
