@@ -41,7 +41,6 @@ export default function Home({ products }) {
       <div className="wrap">
         <Hero products={products} />
         <FrontPage />
-
         <ProductList products={products} />
       </div>
     </div>
